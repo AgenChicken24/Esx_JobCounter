@@ -86,11 +86,11 @@ AddEventHandler('esx_jobCounter:set', function(jobs_online)
 		sani_online = 'green'
 	end
 
-	if jobs['mecano'] < 1 then
+	if jobs['mechanic'] < 1 then
 		meca_online = 'red'
-	elseif jobs['mecano'] < 3 then
+	elseif jobs['mechanic'] < 3 then
 		meca_online = 'yellow'
-	elseif jobs['mecano'] >= 3 then
+	elseif jobs['mechanic'] >= 3 then
 		meca_online = 'green'
 	end
 
@@ -136,11 +136,11 @@ AddEventHandler('esx:playerLoaded', function(xPlayer)
 		sani_online = 'green'
 	end
 
-	if jobs['mecano'] < 1 then
+	if jobs['mechanic'] < 1 then
 		meca_online = 'red'
-	elseif jobs['mecano'] < 3 then
+	elseif jobs['mechanic'] < 3 then
 		meca_online = 'yellow'
-	elseif jobs['mecano'] >= 3 then
+	elseif jobs['mechanic'] >= 3 then
 		meca_online = 'green'
 	end
 
